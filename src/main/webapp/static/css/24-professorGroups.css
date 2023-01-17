@@ -1,0 +1,132 @@
+@import url("./1-root.css");
+/*  GET MODULS BY PROFESSOR */
+.list-moduls-professor {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;    
+}
+  
+.list-moduls-professor .item-modul-professor {
+    position: relative;
+    background-color: white;
+    height: 250px;
+    width: 220px;
+    border-radius: 10px;
+    box-shadow: var(--box-shadow-1);
+    display: flex;
+    flex-direction: column;
+}
+
+.list-moduls-professor .item-modul-professor .item-modul-header {
+    clip-path: circle(63.9% at 34% 0);
+    background-color: var(--color-blue-night-1);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+  
+.list-moduls-professor .item-modul-professor  div {
+    z-index: 1;
+    font-family: "Nunito";
+}
+  
+.list-moduls-professor .item-modul-professor .item-modul-info{
+    height: 155px;
+}
+  
+.item-modul-professor .item-modul-info .item-modul-name {
+    position: relative;
+    font-size: 34px;
+    padding: 20px;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Anton";
+    letter-spacing: 2px;
+    color: white;
+}
+  
+.item-modul-professor .item-modul-info .item-modul-name::after{
+    content: "";
+    border-bottom: 2px solid white;
+    width: 30%;
+    border-radius: 20px;
+}
+
+.item-modul-professor .item-modul-info .item-modul-abbreviationName {
+    z-index: 1;
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+
+.item-modul-professor .item-modul-info .item-modul-abbreviationName span {
+    padding: 2px 15px ;
+    font-size: 13px;
+    background-color: var(--color-red-3);
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: var(--box-shadow-1);
+}
+  
+.item-modul-professor .item-field-info {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    text-transform: lowercase;
+    row-gap: 5px;
+}
+  
+.item-modul-professor .item-field-info span:first-child {
+    padding: 3px 10px;
+    background-color: var(--color-blue-night-1);
+    color:white;
+    border-radius: 5px;
+    font-size: 14px;
+    box-shadow: var(--box-shadow-1);
+}
+  
+.item-modul-professor .item-field-info span:last-child{
+    padding: 3px 10px;
+    background-color: var(--color-red-3);
+    color:white;
+    border-radius: 5px;
+    font-size: 11px;
+    box-shadow: var(--box-shadow-1);
+}
+  
+.item-modul-professor .item-action  {
+    position: relative;
+    display: flex;
+    justify-content: center; 
+    padding: 5px;
+    font-size: 14px;
+}
+
+.item-modul-professor .item-action  a {
+    padding: 3px 10px;
+    background-color: var(--color-blue-night-1);
+    border-radius: 5px;
+    box-shadow: var(--box-shadow-1);
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+  
+.item-modul-professor .item-action  a i {
+    font-size: 11px;
+}
+  
+.item-modul-professor .item-action  a:hover  {
+    background-color: var(--color-red-3);
+}

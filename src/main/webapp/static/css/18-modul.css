@@ -1,0 +1,83 @@
+.left-medium-info_modul {
+    position: relative;
+    display: flex;
+    flex-direction: row; 
+    column-gap: 20px;
+  }
+  
+  .left-medium-info_modul .image-container-item {
+    position: relative;
+    width: 70px;
+    height: 70px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 2px solid var(--color-blue-light-1);
+  }
+  
+  .left-medium-info_modul .image-container-item > img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .left-medium-info_modul div:last-child {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .left-medium-info_modul div:last-child span {
+    position: relative;
+    padding: 4px 7px;
+    color: white;
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: "Nunito";
+    box-shadow: var(--box-shadow-4);
+    background-color: var(--color-red-2);
+  }
+  
+  .left-medium-info_modul div:last-child .info_2 {
+    background-color: #EC4646;
+  }
+  
+  .info-left_medium .left-medium_item-info.left-medim_item-info_modul {
+    border-top: 1px solid chartreuse;
+    padding: 10px 0px;
+  }
+  
+  .student-info_left .info-left_medium .left-medium_item-info.left-medim_item-info_modul span
+  {
+    background-color: chartreuse;
+    color: black;
+    text-transform: uppercase;
+  }
+  
+  .student-info-container .student-info_left .image-container {
+    position: relative;
+    width: 100px;
+    height:100px;
+    padding: 3px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    border: 2px solid var(--color-red-1);
+  }
+  
+  .student-info-container .student-info_left .image-container  span {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: black;
+    color: chartreuse;
+    box-shadow: var(--box-shadow-1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    font-family: "Caveat";
+  }

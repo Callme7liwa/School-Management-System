@@ -1,0 +1,135 @@
+a {
+  text-decoration: none;
+}
+
+.field-container {
+    position: relative;
+    width: 100%;
+    min-height: 92vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.field-content {
+    position: relative;
+    width: 40%;
+    min-height: 40vh;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: var(--box-shadow-3);
+    padding: 20px;
+}
+.field-content .field-content_header {
+    position: relative;
+    display: flex;
+    column-gap: 20px;
+    color: black;
+    align-items: center;
+    padding: 10px 0px;
+    border-bottom: 2px solid #2929297e;
+    font-family: "Nunito";
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+.field-content .field-content_body {
+    position: relative;
+    padding: 20px 0px 10px  0px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.field-content .field-content_body .content-body-item {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 60%;
+    left: 50%;
+    padding: 10px 0px ;
+    font-size: 12px;
+    font-family: "Cairo";
+    font-weight: 700;
+    text-transform: uppercase;
+    transform: translateX(-50%);
+    border-bottom: 1px solid rgba(153, 153, 153, 0.489);
+}
+.field-content .field-content_body .content-body-item  div {
+    position: relative;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.field-content .field-content_body .content-body-item  div:last-child{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    column-gap: 5px;
+}
+
+.field-content .field-content_body .content-body-item div:first-child span{
+    position: relative;
+    padding: 5px  10px;
+    background-color: chartreuse;
+    border-radius: 5px;
+    box-shadow: var(--box-shadow-4);
+    font-size: 11px;
+    cursor: pointer;
+}
+/*  petite cards */
+.item-field-action {
+    position: relative;
+    padding: 5px  10px;
+    background-color: chartreuse;
+    border-radius: 5px;
+    box-shadow: var(--box-shadow-4);
+    font-size: 11px;
+    cursor: pointer;
+}
+.item-field-action:hover {
+    background-color: black;
+    color: chartreuse;
+}
+.item-field-action:hover > i {
+  color:  chartreuse;
+}
+.item-field-action:hover > span{
+  color:  chartreuse;
+}
+
+/* FOOTER */
+
+.field-content_footer  {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.field-content_footer a {
+  position: relative;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: black;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: var(--box-shadow-1);
+  cursor: pointer;
+}
+
+.field-content_footer a  > i {
+  color: chartreuse;
+}
+
+
+.field-content_footer a:hover{
+  background-color: chartreuse;
+}
+
+.field-content_footer a:hover > i {
+  color: black;
+}

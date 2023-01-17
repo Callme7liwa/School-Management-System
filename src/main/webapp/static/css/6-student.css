@@ -1,0 +1,217 @@
+
+/* PAFGE STUDENT */
+.student-content-left_medium .student-info-container {
+    position: relative;
+    padding: 10px 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    top: 5vh;
+  }
+  
+  /* card user information  */
+  .student-content-left_medium .student-info-container .student-info_left {
+    position: relative;
+    width: 32%;
+    min-height: 40vh;
+    background-color: var(--color-blue-night-1);
+    border-radius: 10px;
+    box-shadow: var(--box-shadow-1);
+    padding: 10px;
+  }
+  
+  /* CARD HEADER  IMAGE + SOME INFO  */
+  .student-info_left .info-left_top {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    column-gap: 30px;
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgba(153, 153, 153, 0.543);
+  }
+  
+  .student-info-container .student-info_left .image-container {
+    position: relative;
+    width: 100px;
+    height:100px;
+    padding: 3px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    border: 2px solid var(--color-blue-light-1);
+  }
+  
+  .student-info-container .student-info_left .image-container  img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+  
+  }
+  
+  .student-info_left .info-left_top .left-top_right {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: calc(100% - 120px);
+  }
+  .student-info_left .info-left_top .left-top_right div {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    color: white;
+  }
+  
+  .student-info_left .info-left_top .left-top_right div .student-name {
+    font-family: "Nunito";
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+  
+  .student-info_left .info-left_top .left-top_right div .student-adress {
+    font-family: "caveat";
+    color: rgb(182, 179, 179);
+    text-overflow: ellipsis;
+  }
+  
+  /* CARD BODY  */
+  
+  .student-info_left .info-left_medium {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    padding: 20px 10px;
+  }
+  
+  .student-info_left .info-left_medium .left-medium_item-info {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    column-gap: 10px;
+  }
+  
+  .student-info_left .info-left_medium .left-medium_item-info span {
+    position: relative;
+    color: white;
+    font-size: 12px;
+    font-family: "Nunito";
+    text-transform: lowercase;
+    padding: 5px 10px;
+    background-color: #CD104D;
+    box-shadow: var(--box-shadow-4);
+    border-radius: 10px;
+  }
+  
+  .info-left_medium .left-medium_item-info.left-medim_item-info_second {
+    border-top: 1px solid rgba(153, 153, 153, 0.456);
+    padding: 10px 0px;
+  }
+  .student-info_left .info-left_medium .left-medium_item-info.left-medim_item-info_second span {
+    background-color: greenyellow;
+    color: black;
+  }
+  
+  button {
+    border: none;
+    outline: none;
+  }
+  
+  .info-left_bottom  {
+    position: relative;
+    display: flex;
+  }
+  
+  .info-left_bottom button {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 13px;
+    font-weight: 19px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-transform: uppercase;
+    font-family: "Cairo";
+    background-color: greenyellow;
+    font-weight: 800;
+    box-shadow: var(--box-shadow-4);
+  }
+  
+  /*  A droit du card qui contient les differents info de l'utili */
+  .student-info_right {
+    position: relative;
+    width: 65%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 20px;
+  }
+  
+  .student-info_right .student-info-right_item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    width: 150px;
+    height: 150px;
+    background-color: var(--color-blue-night-1);
+    border-radius: 10px;
+    box-shadow: var(--box-shadow-1);
+    padding: 10px 0px;
+    font-family: "Caveat";
+    color: white;
+    
+  } 
+  
+  .student-info_right .student-info-right_item .image-container {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 50px;
+    justify-content: center;
+  }
+  
+  .student-info_right .student-info-right_item .image-container  img {
+    position: relative;
+    width: 50px;
+    height: 50px;
+  }
+  
+  .student-info_right .student-info-right_item span , a {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+  }
+  
+  .student-info_right .student-info-right_item a i {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #f4f4f4;
+    color: var(--color-blue-night-1);  
+    box-shadow: var(--box-shadow-4);
+    cursor: pointer;
+  }
+  
+  *{
+    transition: all 0.3s ease;
+  }
+  
+  .student-info_right .student-info-right_item a i:hover {
+    background-color: var(--color-blue-night-1);
+    color: white;
+  }

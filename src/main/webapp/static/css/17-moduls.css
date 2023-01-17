@@ -1,0 +1,174 @@
+.content-left_medium .items-dashboard-container  .dashboard-actions {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.content-left_medium .items-dashboard-container  .dashboard-actions a {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-red-2);
+  box-shadow: var(--box-shadow-4);
+  color: white;
+  cursor: pointer;
+}
+
+.content-left_medium .items-dashboard-container  .dashboard-actions a:hover{
+  background-color:#ef1358 ;
+}
+
+.card-item-container {
+    position: relative;
+    background: var(--bg-shape-color);
+    min-height: 150px;
+    min-width: 250px;
+    box-shadow: var(--box-shadow-3);
+    border-radius: 10px;
+    display: flex;
+    width: 100px;
+  }
+  
+  .card-item-container .card-item-header  {
+    position: relative;
+    width: 100px;
+    display: flex;
+    border-right: 1px solid rgba(153, 153, 153, 0.082);
+  }
+  .card-item-container .card-item-header  span {
+    position: relative;
+    top: 50px;
+    width: 50px;
+    height: 50px;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: #0F1620;
+    box-shadow: var(--box-shadow-1);
+    color: chartreuse;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Caveat";
+    font-weight: 500;
+  }
+  
+  .card-item-container .card-item-body {
+    position: relative;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 10px;
+  }
+  
+  .card-item-container .card-item-body .item-modul {
+    position: relative;
+    width: 100%;
+    color: rgb(204, 204, 204);
+    font-size: 12px;
+    padding: 5px;
+  }
+  
+  
+  .card-item-container .card-item-body .item-modul .modul-name {
+    position: relative;
+    color: chartreuse;
+    font-family:"Edu VIC WA NT Beginner" ;
+    text-transform: lowercase;
+    background-color: black;
+    padding: 2px 10px;
+    font-size: 11px;
+    border-radius: 5px;
+    box-shadow: var(--box-shadow-4) ;
+  }
+  
+  .card-item-container .card-item-body .item-modul:first-child{
+    border-bottom: 1px solid rgba(153, 153, 153, 0.24);
+  }
+  
+  .item-modul .item-modul-fields{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+  }
+  
+  
+  .item-modul .item-modul-fields div:first-child span {
+    font-family: "Nunito";
+    font-weight: 600;
+    padding: 1px 5px;
+    color: black;
+    background-color: white;
+    font-size: 10px;
+    border-radius: 2px;
+  }
+  
+  .item-modul .item-modul-fields .modul-list-field {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 5px;
+    row-gap: 10px;
+  }
+  
+  .item-modul .item-modul-fields .modul-list-field  .field {
+    position: relative;
+    padding: 2px 10px;
+    background-color: black;
+    font-size: 9px;
+    border-radius: 5px;
+    color: chartreuse;
+    text-transform: uppercase;
+    font-family: "Caveat";
+    box-shadow: var(--box-shadow-1);
+  }
+  
+  .card-item-body .item-info-action  {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .card-item-body .item-info-action  a {
+    position: relative;
+    color: white;
+    display: flex;
+    column-gap: 1px;
+    cursor: pointer;
+  }
+  
+  .card-item-body .item-info-action  a span{
+    background-color: rgba(128, 255, 0, 0.807);
+    color: black;
+    font-family: "Nunito";
+    text-transform: uppercase;
+  }
+  
+  .card-item-body .item-info-action  a span:first-child{
+    min-width: 50px;
+    padding: 5px;
+    font-size: 10px;
+  }
+  .card-item-body .item-info-action  a span:last-child{
+    position: relative;
+    display: flex;
+    width: 30px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 14px;
+  }
+  .card-item-body .item-info-action  a span:first-child:hover,
+  .card-item-body .item-info-action  a span:last-child:hover{
+    background-color: rgb(128, 255, 0);
+  }
+

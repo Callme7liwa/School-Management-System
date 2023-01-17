@@ -1,0 +1,181 @@
+.student-content-left_medium.content-left-absences .student-info-container  {
+  position: relative;
+  padding: 10px 40px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  column-gap: 20px;
+  top: 2vh;
+}
+
+.student-info-left {
+    max-height: 50vh;
+    overflow: hidden;
+}
+.absence-item-container {
+    position: relative;
+    min-width: 300px;
+    min-height: 300px;
+    background-color: var(--color-blue-night-1);
+    border-radius: 10px;
+    box-shadow: var(--box-shadow-1);
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px;
+  }
+  
+  .absence-item-container .abscence-item_top {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgba(153, 153, 153, 0.234);
+  }
+  
+  .absence-item-container .abscence-item_top .item-top-name-image {
+    position: relative;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    color: wheat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-weight: 800;
+    box-shadow: var(--box-shadow-4);
+  }
+  
+  .absence-item-container .abscence-item_top .item-top-name-text {
+    color: #999;
+    font-size: 15px;
+    font-family: "Nunito";
+  }
+  
+  .absence-item-container .abscence-item_medium {
+    position: relative;
+    width: 100%;
+    padding: 10px;
+  }
+  
+  .absence-item-container .abscence-item_medium table {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  .absence-item-container .abscence-item_medium tr {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    color: #999;
+    font-family: "Nunito";
+    padding: 10px;
+    border-bottom: 1px solid rgba(153, 153, 153, 0.582);
+  }
+
+  .absence-value {
+    font-size: 13px;
+  }
+  
+  .absence-item-container .abscence-item_medium tr th , td {
+    display: flex;
+    justify-content: center;
+    width: 33%;
+    align-items: center;
+    column-gap: 10px;
+  }
+
+  .absence-item-container .abscence-item_medium tr td button {
+    background-color: transparent;
+  }
+  
+  .absence-item-container .abscence-item_medium tr td i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    color: black;
+    border-radius: 50%;
+    box-shadow: var(--box-shadow-1);
+    cursor: pointer;
+  }
+  
+  .absence-item-container .abscence-item_medium tr td .fa-refresh {
+    background-color:greenyellow;
+  }
+  .absence-item-container .abscence-item_medium tr td .fa-times {
+    background-color:var(--color-red-1);
+  }
+  
+  .absence-item-container .abscence-item_footer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+  
+ 
+  .absence-item-container .abscence-item_footer a {
+    position: relative;
+    width: 40px;
+    height:40px;
+    border-radius: 50%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.5s ease ;
+    text-decoration: none;
+  
+  }
+  
+.absence-item-container .abscence-item_footer a::before{
+    content: "➕";
+    position: relative;
+    width: 35px;
+    height:35px;
+    border-radius: 50%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.5s ease ;
+    background-color: greenyellow;
+}
+
+
+.students-years {
+  position: relative;
+  width: 80%;
+  left: 4%;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 10px;
+  column-gap: 10px;
+  top: 1vh;
+}
+
+.students-years  span {
+  position: relative;
+  padding: 8px 10px;
+  width: 100px;
+  background-color: #292929;
+  color: chartreuse;
+  border-radius: 5px;
+  box-shadow: var(--box-shadow-1);
+  font-family: "Caveat";
+  cursor: pointer;
+}
+
+.students-years  span:hover {
+  background: chartreuse;
+  color: #292929;
+}

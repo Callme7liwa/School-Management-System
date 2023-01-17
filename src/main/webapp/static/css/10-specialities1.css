@@ -1,0 +1,110 @@
+
+
+.list-specialities {
+    position: relative;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .list-specialities .item-speciality-container {
+    position: relative;
+    width: 220px;
+    height: 220px;
+    box-shadow: var(--box-shadow-4);
+    padding: 10px;
+    border-radius: 10px;
+    background-color: var(--color-red-3);
+  }
+  
+  .list-specialities .item-speciality-container .item-speciality-content {
+    position: relative;
+    background: white;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: var(--box-shadow-1);
+  }
+  
+  .item-speciality-content .item-number {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: var(--color-blue-night-1);
+    color: var(--color-white-1);
+    box-shadow: var(--box-shadow-4);
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    font-family: "Nunito";
+    font-size: 19px;
+  
+  }
+  
+  .item-speciality-content .speciality-information {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .item-speciality-content .speciality-information div {
+    padding: 10px;
+    font-family: "Nunito";
+  }
+  .item-speciality-content .speciality-information .field-abbreviation {
+    position: relative;
+    display: flex;
+    font-size: 22px;
+    font-weight: 700;
+  }
+  
+  .item-speciality-content .speciality-information .field-name span {
+    padding: 5px 10px;
+    background-color: var(--color-blue-night-1);
+    color: white;
+    font-size: 12px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    box-shadow: var(--box-shadow-1);
+  }
+  
+  .item-speciality-content .speciality-information .field-creationDate span {
+    padding: 5px 10px;
+    font-size: 13px;
+    color: white;
+    border-radius: 5px;
+    background-image: linear-gradient(to right , var(--color-blue-night-1) ,  var(--color-blue-night-1) , var(--color-blue-night-1) , var(--color-red-3) ,var(--color-red-3) );
+    box-shadow: var(--box-shadow-1);
+  }
+  
+  .item-speciality-content .item-action  {
+    position: relative;
+    display: flex;
+    justify-content: center; 
+    padding: 5px;
+    font-size: 14px;
+    font-family: "Nunito";
+  }
+  
+  .item-speciality-content .item-action  a {
+    padding: 3px 10px;
+    background-color: var(--color-blue-night-1);
+    border-radius: 5px;
+    box-shadow: var(--box-shadow-1);
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .item-speciality-content .item-action  a i {
+    font-size: 11px;
+  }
+  
+  .item-speciality-content .item-action  a:hover  {
+    background-color: var(--color-red-3);
+  }
+  

@@ -1,0 +1,182 @@
+.events-header {
+  position: relative;
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.258);
+}
+
+.events-header .event-number {
+  position: relative;
+  min-width: 120px;
+  height: 120px;
+  border-radius: 5px;
+  color: white;
+  font-family: "Anton";
+  font-weight: 700;
+  font-size: 45px;
+  background-color: var(--color-blue-night-1);
+  box-shadow: var(--box-shadow-1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.events-header .event-header_right {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  color: black;
+  font-size: 16px;
+  justify-content: center;
+  font-family: "Nunito";
+
+}
+
+.events-header .event-header_right .header-title {
+  padding: 10px 20px;
+  background-color: #0F1620;
+  border-radius: 10px;
+  color: white;
+  box-shadow: var(--box-shadow-1);
+}
+
+.events-header .event-header_right .header-title span {
+  padding: 3px 10px;
+  background-color: var(--color-red-2);
+  font-size: 12px;
+  border-radius: 5px;
+  box-shadow: var(--box-shadow-1);
+}
+
+.events-header .event-header_right .header-date span {
+  padding: 10px 20px;
+  background-color: #0F1620;
+  border-radius: 10px;
+  color: white;
+  box-shadow: var(--box-shadow-1);
+}
+
+.events-header .event-header_right .header-date .on {
+  padding: 3px 10px;
+  background-color: var(--color-red-2);
+  font-size: 12px;
+  border-radius: 5px;
+  box-shadow: var(--box-shadow-1);
+}
+
+.events-description {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  row-gap: 20px;
+}
+
+.events-description .event-description_header span {
+  padding: 3px 10px;
+  background-color: var(--color-red-2);
+  color: white;
+  font-size: 18px;
+  border-radius: 5px;
+  box-shadow: var(--box-shadow-1);
+  font-family: "Nunito";
+}
+
+.events-description .event-actions {
+  position: relative;
+  display: flex;
+  justify-content: right;
+  column-gap: 20px;
+}
+
+.events-description .event-actions a {
+  padding: 5px 10px;
+  color: white;
+  font-family: "Nunito";
+  width: 200px;
+  color: black;
+}
+
+.events-description .event-actions .btn-warning {
+  color: black;
+}
+
+.events-description .event-actions a i {
+  margin-right: 5px;
+}
+
+.doc-item {
+  position: relative;
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #dbdbdb;
+  margin-right: 10px;
+  padding: 10px 0px;
+  border-radius: 10px;
+  font-family: "Nunito";
+}
+
+.doc-item img {
+  position: relative;
+  width: 50px;
+  height: 50px;
+
+}
+
+.doc-item a {
+  color: black;
+  text-decoration: underline;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.doc-actions {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+  justify-content: center;
+  padding: 10px 0px;
+}
+
+.doc-actions a i {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  box-shadow: var(--box-shadow-1);
+  cursor: pointer;
+}
+
+.doc-actions a:first-child i {
+  background-color: var(--color-red-4);
+}
+
+.doc-actions a:last-child i {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  background-color: greenyellow;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  box-shadow: var(--box-shadow-1);
+  cursor: pointer;
+}
+
+.events-container {
+  padding: 20px 20px;
+}

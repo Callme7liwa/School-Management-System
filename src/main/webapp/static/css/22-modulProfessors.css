@@ -1,0 +1,80 @@
+
+@import url("./1-root.css");
+
+.list-professors {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    gap: 10px;
+  }
+  
+  .list-professors .item-professor-modul {
+    position: relative;
+    display: flex;
+    min-width: 250px;
+    column-gap: 10px;
+    /* background-color: #fffbfb; */
+    border: 1px solid #29292939;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: var(--box-shadow-1);
+    cursor:pointer;
+  }
+  
+  .list-professors .item-professor-modul img {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid var(--color-red-3);
+    /* border: 2px solid chartreuse; */
+  }
+  
+  .list-professors .item-professor-modul .professor-information {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .list-professors .item-professor-modul .professor-information span:first-child{
+    font-size: 14px;
+  }
+  .list-professors .item-professor-modul .professor-information span:last-child{
+    font-size: 11px;
+    font-family: "Caveat";
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .list-professors .item-professor-modul .professor-information span:last-child::after{
+    position: relative;
+    content: "";
+    width: 30%;
+    border-bottom: 1px solid var(--color-red-3);
+  }
+  
+  .list-professors .item-professor-modul i{
+    position: absolute;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    background-color: var(--color-red-2);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    box-shadow: var(--box-shadow-1);
+    cursor: pointer;
+    top: 50%;
+    transform: translateY(-15px);
+  }
+  
+  /* .list-professors .item-professor-modul i i {
+    color: white;
+  } */
+

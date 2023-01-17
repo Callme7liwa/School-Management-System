@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200&family=Edu+VIC+WA+NT+Beginner:wght@400;600;700;800;900&family=Roboto:wght@100&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200&family=Edu+VIC+WA+NT+Beginner:wght@400;600;700&family=Roboto+Condensed:wght@700&family=Roboto:wght@100&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200&family=Edu+VIC+WA+NT+Beginner:wght@400;600;700&family=Roboto+Condensed:wght@700&family=Roboto:wght@100&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Edu+SA+Beginner&family=Roboto:ital,wght@0,100;0,300;1,100&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Edu+SA+Beginner&family=Nunito:ital,wght@0,900;1,900&family=Roboto:ital,wght@0,100;0,300;1,100&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Hina+Mincho&family=Nunito:wght@400;500;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script:wght@400;500;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Caveat:wght@700&family=Dancing+Script:wght@400;500;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@500;550;600;700;800;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;450;500;550;600;700;800;750;800;900&display=swap');
+
+
+:root{
+    --bg-shape-color:linear-gradient(120deg,  #343A4F, #0F1620) ;
+    --lightblue: #3D9DEA;
+    --darkblue: #4A4EEE;
+    --text-color: #D5E1EF;
+ 
+    --color-blue-night-1 : #202b3f ; 
+    --color-blue-light-1 : #5caad8; 
+    --color-blue-night-2 : #3F3B6C; 
+    --color-blue-night-3 : #150050; 
+    --color-red-1 : #D2001A ;
+    --color-red-2 : #CD104D;
+    --color-red-3 : #D61C4E ;
+    --color-red-4 : #EC4646 ;
+    --color-red-5 : #F05454;
+    --color-white-1 : #f4f4f4;
+    --color-white-2 : blue;
+    --box-shadow-1 : rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    --box-shadow-2 : rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    --box-shadow-3: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    --box-shadow-4: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+
+
+*{
+    padding:  0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+.begginer{
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+}
+
+.nunito {
+    font-family: "Nunito";
+}
+
+.anton {
+    font-family: "Anton";
+}
+.raleway {
+    font-family: "Raleway";
+}
+.cairo {
+    font-family: "Cairo";
+}
+.noto-arabic {
+    font-family: 'Noto Sans Arabic', sans-serif;
+}
+.silkscreen {
+    font-family: 'Silkscreen', cursive;
+}
+.dancing {
+    font-family: 'Dancing Script', cursive;
+}
+.caveat {
+    font-family: 'Caveat', cursive;
+}
+.amatic {
+    font-family: 'Amatic SC', cursive;
+}
+.alfa {
+    font-family: 'Alfa Slab One', cursive;
+}
+.bebas{
+    font-family: 'Bebas Neue', cursive;
+}
+
+
+a:hover{
+    text-decoration: none;
+}
+
+input[type=submit] {
+    cursor:pointer;
+}
+
+button {
+    cursor: pointer;
+}

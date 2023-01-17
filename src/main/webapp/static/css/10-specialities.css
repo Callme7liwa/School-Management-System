@@ -1,0 +1,166 @@
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+
+.acceuil-left_medium_specialitieScholar {
+    padding: 20px;
+}
+
+.acceuil-left_medium_specialitieScholar .page-title  {
+    position: relative;
+    font-size: 19px;
+    text-transform: uppercase;
+    font-family: "Caveat";
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 10px;
+}
+
+.acceuil-left_medium_specialitieScholar .page-title .page-title_left {
+    position: relative;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.acceuil-left_medium_specialitieScholar .page-title .page-title_right {
+    position: relative;
+    width: 30%;
+    display: flex;
+    column-gap: 10px;
+    justify-content: right;
+    padding-right: 15px;
+}
+
+.acceuil-left_medium_specialitieScholar .page-title_left::after {
+    content:  "";
+    width: 30%;
+    height: 2px;
+    background-color: rgba(153, 153, 153, 0.358);
+    border-radius: 10px;
+}
+
+.acceuil-left_medium_specialitieScholar .page-title .page-title_right a {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+    color: black;
+    box-shadow: var(--box-shadow-1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.acceuil-left_medium_specialitieScholar .page-title .page-title_right a:hover {
+    background-color: #EC4646;
+}
+
+.acceuil-left_medium_specialitieScholar .page-title .page-title_right a:hover > i {
+    color: white;
+}
+
+.page-list-specialities {
+    position: relative ;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    row-gap: 10px;
+    padding: 20px 0px ;
+}
+
+.page-list-specialities .card-speciality-container {
+    position: relative ;
+    width: 200px;
+    min-height: 200px;
+    background-color: var(--color-blue-night-1);
+    box-shadow: var(--box-shadow-1);
+    border-radius: 10px;
+    padding: 0px 10px;
+
+
+}
+
+.page-list-specialities .card-speciality-container  .card-speciality_header {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid rgba(153, 153, 153, 0.353);
+    padding: 10px 0px;
+}
+
+.card-speciality-container  .card-speciality_header span {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-family: "Caveat";
+    color: black;
+    box-shadow: var(--box-shadow-2);
+    letter-spacing: 1px;
+}
+
+.card-speciality-container  .card-speciality_body {
+    position: relative;
+    color: white;
+    font-size: 14px;
+    font-family: "Cairo";
+    font-weight: 700;
+    padding: 10px;
+    letter-spacing: 0.4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+}
+
+.card-speciality-container  .card-speciality_body  span:last-child{
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+}
+
+.card-speciality-container .card-speciality_footer {
+    position: relative;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.card-speciality-container .card-speciality_footer a {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: var(--box-shadow-4);
+    cursor: pointer;
+}
+
+.card-speciality-container .card-speciality_footer a:hover {
+    background-color: #EC4646;
+}
+
+.card-speciality-container .card-speciality_footer a:hover > i {
+    color: white;
+}
+
+/* NEW VERSION OF CSS  */

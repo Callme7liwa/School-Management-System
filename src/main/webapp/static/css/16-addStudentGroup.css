@@ -1,0 +1,119 @@
+
+/* Add group  */
+.content-add-group {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  /* 
+  .content-add-group .body_content {
+    position: relative;
+    display: flex;
+    height: 100%;
+    background-color: #CD104D;
+    justify-content: center;
+    align-items: center;
+  } */
+  .add-group-container {
+    position: relative;
+    width: 500px;
+    min-height: 320px;
+    background-color: white;
+    box-shadow: var(--box-shadow-3);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 20px 20px 20px;
+  
+  }
+  
+  
+  .add-group-container .add-group_header  {
+    position: relative;
+    font-size: 16px;
+    font-family: "Cairo";
+    font-weight: 700;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px 0px;
+    row-gap: 10px;
+    column-gap: 10px;
+  }
+  
+  .add-group-container .add-group_header span:last-child {
+    margin-left: 10px;
+  }
+  
+  .add-group-container .add-group_header::after{
+    content: "";
+    position: relative;
+    width: 100%;
+    left: 0;
+    background-color: rgba(182, 179, 179, 0.147);
+    height: 2px;
+    font-weight: 800;
+  
+  }
+  
+  .add-group-container .add-group_body {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+  }
+  
+  .add-group-container .add-group_body .add-group-input-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .add-group-container .add-group_body .add-group-input-container label {
+    font-family: "Nunito";
+    font-size: 14px;
+    font-weight: 500;
+  
+  }
+  
+  .add-group-container .add-group_body .add-group-input-container input  , 
+  .add-group-container .add-group_body .add-group-input-container select,
+  .add-group-container .add-group_body .add-group-input-container textarea{
+    border: 1px solid rgba(182, 179, 179, 0.49);
+    outline: none;
+    padding: 10px;
+    font-size: 13px;
+    font-family: "Nunito";
+    border-radius: 2px;
+  }
+  
+  .add-group-container .add-group_body .add-group-input-container .submit-add-group {
+    background-color: var(--color-blue-night-1);
+    margin-top: 10px;
+    border-radius: 5px;
+    color: white;
+  }
+
+
+  .professor-option {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+  }
+
+  
+  .professor-option span:last-child {
+    position: relative;
+    font-size: 13px;
+    font-family: "Caveat";
+    background-color: chartreuse;
+    color: black;
+    border-radius: 2px;
+    box-shadow: var(--box-shadow-3);
+  }

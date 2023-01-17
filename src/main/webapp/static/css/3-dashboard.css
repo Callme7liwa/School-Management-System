@@ -1,0 +1,289 @@
+@import url("./1-root.css");
+
+*{
+   transition: all 0.3s ease; 
+}
+
+.page-acceuil-container {
+    position: relative;
+    width: 100%;
+    background-color: var(--color-white-1);
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.page-acceuil-content {
+    position: relative;
+    width: 100%;
+    display: flex;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.page-acceuil-content .acceuil-content_right {
+    width: 20%;
+    background-color: var(--color-blue-night-1);
+    position: fixed;
+    height: 100%;
+}
+
+.acceuil-content_right  .content-right_space {
+    position: relative;
+    width: 100%;
+    height: 7vh;
+    padding: 10px;
+    color: #999;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.acceuil-content_right  .content-right_top {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+}
+
+.acceuil-content_right  .content-right_top  .image-container {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    overflow: hidden;
+    padding: 5px;
+    border: 2px solid rgba(11, 174, 238, 0.719);
+}
+
+.acceuil-content_right  .content-right_top img {
+    position: relative ;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: var(--box-shadow-1);
+
+}
+
+.acceuil-content_right  .content-right_top .user-name-connected {
+    color: white;
+    font-family: "Nunito";
+    font-size: 18px;
+}
+
+.acceuil-content_right  .content-right_top .user-name-connected {
+    letter-spacing: 0.1px;
+}
+
+.acceuil-content_right  .content-right_top .email-connected {
+    color: rgb(212, 212, 212); ;
+    font-family: 'Caveat', cursive;
+    font-size: 14px;
+    letter-spacing: 0.1px;
+}
+
+.acceuil-content_right  .content-right_medium {
+    position: relative;
+    width: 100%;
+}
+
+.acceuil-content_right  .content-right_medium .list-items {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    list-style: none;
+    top: 4vh;
+}
+
+.acceuil-content_right  .content-right_medium .list-items a {
+    position: relative;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    left: 10%;
+}
+
+.acceuil-content_right  .content-right_medium .list-items .item img {
+    width: 20px;
+    height: 20px;
+}
+
+.acceuil-content_right  .content-right_medium .list-items a  span {
+    position: relative;
+    width: 40%;
+    font-family: "Cairo";
+    font-size: 14px;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.acceuil-content_right  .content-right_medium .list-items a  i {
+    color: white;
+}
+
+.acceuil-content_right  .content-right_medium .list-items a  .item-number{
+    position: relative;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 25px;
+    font-size: 13px;
+    font-family: "Nunito";
+    box-shadow: var(--box-shadow-4);
+}
+
+.acceuil-content_right  .content-right_medium .list-items a:first-child  .item-number{
+    background-color: #CD104D;
+    color:white ;
+}
+
+.acceuil-content_left {
+    position: relative;
+    width: 80%;
+    left: 18.2%;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+}
+
+.acceuil-content_left .content-left_top {
+    position: relative;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+    border-bottom: 1px solid rgba(163, 162, 162, 0.199);
+}
+
+.acceuil-content_left .content-left_top .top-right {
+    position: relative;
+    display: flex;
+    align-items: center;
+    column-gap: 50px;
+}
+
+.acceuil-content_left .content-left_top .top-right div > img {
+    position: relative;
+    width: 30px;
+    height: 30px;
+}
+
+.acceuil-content_left .content-left_top .top-right .user-info {
+    position: relative;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    background-color: #202b3f28;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+.acceuil-content_left .content-left_top .top-right .user-info img {
+    border: 2px solid rgba(11, 174, 238, 0.719);
+}
+.acceuil-content_left .content-left_top .top-right .user-info .username-connected {
+    font-size: 12px;
+    font-family: "Cairo";
+    font-weight: 600;
+    column-gap: 5px;
+}
+.acceuil-content_left .content-left_top .top-right div:nth-child(2) > img {
+    border-radius: 50%;
+}
+
+/*  RIGHT OF THE DASHBORD  */
+.content-left_medium {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-left_medium .items-dashboard-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+    row-gap: 30px;
+    flex-wrap: wrap;
+    padding: 30px 40px;
+
+}
+
+.content-left_medium .items-dashboard-container .item-dashboard-container {
+    position: relative;
+    width: 220px;
+    min-height: 220px;
+    box-shadow: var(--box-shadow-1);
+    border-radius: 10px;
+    background-color: var(--color-blue-night-1);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    padding: 10px 10px ;
+}
+
+.item-dashboard-container .item-image-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+}
+
+.item-dashboard-container .item-info span {
+    position: relative;
+    display: flex;
+    font-size: 15px;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Caveat', cursive;
+}
+
+.item-dashboard-container .item-action  {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item-dashboard-container .item-action i {
+    position: relative;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    box-shadow: var(--box-shadow-3);
+    transition: all 0.1s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    cursor:pointer;
+    color: #150050;
+}
+
+.item-dashboard-container .item-action i:hover {
+    background-color: black;
+    color: white;
+}
+
+
+/*  STUDEN TCARD */
+
+a {
+    text-decoration: none;   
+}
+
+a:hover {
+    text-decoration: none;
+}
+

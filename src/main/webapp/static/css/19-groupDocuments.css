@@ -1,0 +1,76 @@
+
+.list-files {
+    position: relative;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+}
+
+.file-item {
+    position: relative;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #dbdbdb;
+    padding: 10px 0px;
+    border-radius: 10px;
+    font-family: "Nunito";
+}
+  
+.file-item img {
+position: relative;
+width: 50px;
+height: 50px;
+overflow: hidden;
+}
+
+.file-item a {
+color: black;
+text-decoration: underline;
+font-size: 14px;
+font-weight: 500;
+}
+
+
+.doc-actions {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    justify-content: center;
+    padding: 10px 0px;
+}
+  
+.doc-actions a i {
+    position: relative;
+    width:30px;
+    height:30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    box-shadow: var(--box-shadow-1);
+    cursor: pointer;
+  }
+  
+  .doc-actions a:first-child i{
+    background-color: var(--color-red-4);
+  }
+  
+  .doc-actions a:last-child i {
+    position: relative;
+    width:30px;
+    height:30px;
+    background-color: greenyellow;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    box-shadow: var(--box-shadow-1);
+    cursor: pointer;
+  }

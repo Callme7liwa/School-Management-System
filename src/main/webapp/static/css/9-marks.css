@@ -1,0 +1,152 @@
+
+.content-marks .content-left_medium {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    height: 100%;
+    padding: 10px 40px;
+  }
+  
+  .content-marks .content-left_medium .annee-etude {
+    position: relative;
+    width: 100%;
+    display: flex; 
+    column-gap: 10px;
+  }
+  
+  .content-marks .content-left_medium .annee-etude  span {
+    position: relative;
+    padding: 10px;
+    background-color: var(--color-blue-night-1);
+    color: wheat;
+    cursor: pointer;
+    box-shadow: var(--box-shadow-1);
+    border-radius: 5px;
+    font-family: "Caveat";
+  }
+  
+  .content-marks .content-left_medium .annee-etude  span:hover{
+    background-color: wheat;
+    color: var(--color-blue-night-1);
+  }
+  
+  .content-marks .content-left_medium  .note-items {
+    position: relative;
+    width: 100%;
+    display: flex;
+    row-gap: 20px;
+    column-gap: 20px;
+  }
+  
+  .content-marks .content-left_medium  .note-items .note-item {
+    position: relative;
+    width: 200px;
+    min-height: 200px;
+    border-radius: 10px;
+    background-color: var(--color-blue-night-1);
+    box-shadow: var(--box-shadow-1);
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    padding: 10px 10px;
+  }
+  
+  .content-marks .content-left_medium  .note-items .note-item .note-item-name-image{
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: wheat;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-weight: 700;
+    box-shadow: var(--box-shadow-4);
+  }
+  
+  .content-marks .content-left_medium  .note-items .note-item  .note-item-name-text {
+    color: white;
+    font-family: "Cairo";
+    letter-spacing: 0.5px;
+    font-size: 13px;
+    text-align: center;
+    font-weight: 700;
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgba(153, 153, 153, 0.597);
+  }
+  
+  .content-marks .content-left_medium  .note-items .note-item .note-item-value {
+    font-size: 14px;
+    text-align: center;
+    color: whitesmoke;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+  }
+  
+  .content-marks .content-left_medium  .note-items .note-item .note-item-actions {
+    position: relative;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    column-gap: 10px;
+  }
+  
+  .content-marks .content-left_medium  .note-items .note-item .note-item-actions i {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    font-size: 13px;
+    box-shadow: var(--box-shadow-4);
+    cursor: pointer;
+  }
+  
+  .content-marks .content-left_medium  .note-items .note-item .note-item-actions .fa-refresh {
+    background-color: greenyellow;
+  }
+
+  .content-marks .content-left_medium  .note-items .note-item .note-item-actions .fa-refresh:hover{
+    background-color: rgba(172, 255, 47, 0.658);
+  }
+
+  .content-marks .content-left_medium  .note-items .note-item .note-item-actions .fa-times:hover {
+    background-color: #ef031e;
+  }
+  .content-marks .content-left_medium  .note-items .note-item .note-item-actions .fa-times {
+    background-color: var(--color-red-1);
+  }
+  
+  
+.students-years {
+  position: relative;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 10px;
+  column-gap: 10px;
+  top: 1vh;
+}
+
+.students-years  span {
+  position: relative;
+  padding: 8px 0px;
+  width: 100px;
+  text-align: center;
+  background-color: #292929;
+  color: chartreuse;
+  border-radius: 5px;
+  box-shadow: var(--box-shadow-1);
+  font-family: "Caveat";
+  cursor: pointer;
+}
+
+.students-years  span:hover {
+  background: chartreuse;
+  color: #292929;
+}
